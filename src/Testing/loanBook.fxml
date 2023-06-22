@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="492.0" prefWidth="813.0" style="-fx-background-color: #FFE9D0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Testing.loanBookcontroller">
+   <children>
+      <Pane layoutY="175.0" prefHeight="317.0" prefWidth="813.0" style="-fx-background-color: #FFE9D0;">
+         <children>
+            <TextField fx:id="authorname" layoutX="91.0" layoutY="102.0" prefHeight="39.0" prefWidth="292.0" promptText="Author name" />
+            <TextField fx:id="year" layoutX="91.0" layoutY="150.0" prefHeight="39.0" prefWidth="292.0" promptText="Year Published" />
+            <TextField fx:id="category" layoutX="91.0" layoutY="195.0" prefHeight="39.0" prefWidth="292.0" promptText="Category" />
+            <TextField fx:id="searchBookCode" layoutX="93.0" layoutY="8.0" prefHeight="39.0" prefWidth="218.0" promptText="Search Book by ID..." />
+            <TextField fx:id="booktitle" layoutX="92.0" layoutY="56.0" prefHeight="39.0" prefWidth="292.0" promptText="Book Title" />
+            <TextField fx:id="searchStudentID" layoutX="502.0" layoutY="10.0" prefHeight="39.0" prefWidth="218.0" promptText="Search Student by Username..." />
+            <TextField fx:id="usernameid" layoutX="501.0" layoutY="56.0" prefHeight="39.0" prefWidth="292.0" promptText="Username" />
+            <TextField fx:id="password" layoutX="501.0" layoutY="102.0" prefHeight="39.0" prefWidth="292.0" promptText="Firstname" />
+            <TextField fx:id="studentidtxt" layoutX="501.0" layoutY="150.0" prefHeight="39.0" prefWidth="292.0" promptText="Student ID" />
+            <DatePicker fx:id="issueDate" layoutX="501.0" layoutY="197.0" prefHeight="35.0" prefWidth="292.0" promptText="Date" />
+            <Button fx:id="gobackbtn11" layoutX="719.0" layoutY="10.0" mnemonicParsing="false" onAction="#searchStudent" prefHeight="39.0" prefWidth="72.0" text="Search" />
+            <Button fx:id="gobackbtn1" accessibleRoleDescription="ry" layoutX="311.0" layoutY="8.0" mnemonicParsing="false" onAction="#searchBook" prefHeight="39.0" prefWidth="72.0" text="Search" />
+            <Button fx:id="clearformbtn" layoutX="637.0" layoutY="252.0" mnemonicParsing="false" onAction="#clear" prefHeight="39.0" prefWidth="74.0" text="Clear Form" />
+            <Button fx:id="laonbtn" layoutX="719.0" layoutY="252.0" mnemonicParsing="false" onAction="#issue" prefHeight="39.0" prefWidth="72.0" text="Loan Book" />
+            <Label layoutX="8.0" layoutY="62.0" prefHeight="28.0" prefWidth="81.0" text="Book Title">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="106.0" prefHeight="28.0" prefWidth="81.0" text="Author name">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="152.0" prefHeight="28.0" prefWidth="55.0" text="Year">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="12.0" layoutY="199.0" prefHeight="28.0" prefWidth="55.0" text="Category">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="417.0" layoutY="67.0" prefHeight="17.0" prefWidth="81.0" text="Last name">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="417.0" layoutY="112.0" prefHeight="17.0" prefWidth="81.0" text="First name">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="417.0" layoutY="160.0" prefHeight="17.0" prefWidth="81.0" text="Student ID">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="417.0" layoutY="205.0" prefHeight="17.0" prefWidth="81.0" text="Date">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="gobackbtn" layoutX="7.0" layoutY="114.0" mnemonicParsing="false" onAction="#goback" prefHeight="28.0" prefWidth="38.0" text="&lt;" />
+      <Label alignment="CENTER" layoutX="183.0" layoutY="10.0" prefHeight="76.0" prefWidth="384.0" text="LoanBook">
+         <font>
+            <Font name="Agency FB" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

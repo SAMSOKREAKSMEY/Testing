@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="821.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Testing.loanListcontroller">
+   <children>
+      <TableView fx:id="TableView" layoutX="4.0" layoutY="109.0" onSort="#showBooks" prefHeight="362.0" prefWidth="814.0">
+        <columns>
+          <TableColumn fx:id="usernameid" prefWidth="124.0" text="Username" />
+          <TableColumn fx:id="password" prefWidth="90.0" text="Firstname" />
+            <TableColumn fx:id="title" minWidth="5.0" prefWidth="59.0" text="Title" />
+            <TableColumn fx:id="author" prefWidth="79.0" text="Author" />
+            <TableColumn fx:id="year" prefWidth="75.0" text="Year" />
+            <TableColumn fx:id="loandate" prefWidth="136.0" text="Laon Date" />
+            <TableColumn fx:id="category" prefWidth="75.0" text="Category" />
+            <TableColumn fx:id="bookid" prefWidth="75.0" text="Book ID" />
+        </columns>
+      </TableView>
+      <Button layoutX="755.0" layoutY="49.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>

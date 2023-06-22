@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="469.0" prefWidth="658.0" style="-fx-background-color: #FFE9D0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Testing.returnbookcontroller">
+   <children>
+      <TextField fx:id="bookid" layoutX="201.0" layoutY="100.0" prefHeight="34.0" prefWidth="183.0" promptText="Search Book by ID..." />
+      <Button fx:id="searchbtn" layoutX="384.0" layoutY="100.0" mnemonicParsing="false" onAction="#search" prefHeight="34.0" prefWidth="80.0" text="Search" />
+      <TextField fx:id="usernametxt" layoutX="201.0" layoutY="139.0" prefHeight="34.0" prefWidth="264.0" promptText="Username" />
+      <TextField fx:id="titletxt" layoutX="201.0" layoutY="179.0" prefHeight="34.0" prefWidth="264.0" promptText="Book Title" />
+      <TextField fx:id="authortxt" layoutX="201.0" layoutY="219.0" prefHeight="34.0" prefWidth="264.0" promptText="Author name" />
+      <TextField fx:id="yeartxt" layoutX="201.0" layoutY="259.0" prefHeight="34.0" prefWidth="264.0" promptText="Year Published" />
+      <TextField fx:id="loandatetxt" layoutX="201.0" layoutY="301.0" prefHeight="34.0" prefWidth="264.0" promptText="Loandate" />
+      <TextField fx:id="bookidtxt" layoutX="201.0" layoutY="343.0" prefHeight="34.0" prefWidth="264.0" promptText="Book ID" />
+      <TextField fx:id="categorytxt" layoutX="201.0" layoutY="384.0" prefHeight="34.0" prefWidth="136.0" promptText="Category" />
+      <Button fx:id="returnbtn" layoutX="399.0" layoutY="427.0" mnemonicParsing="false" onAction="#Return" prefHeight="34.0" prefWidth="66.0" text="Return" />
+      <Button fx:id="backbtn" layoutX="14.0" layoutY="100.0" mnemonicParsing="false" onAction="#goback" text="&lt;" />
+      <Label alignment="CENTER" layoutX="97.0" layoutY="8.0" prefHeight="57.0" prefWidth="384.0" text="Return Book">
+         <font>
+            <Font name="Agency FB" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="139.0" prefHeight="34.0" prefWidth="88.0" text="Username">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="84.0" layoutY="179.0" prefHeight="34.0" prefWidth="88.0" text="Book Title">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="84.0" layoutY="219.0" prefHeight="34.0" prefWidth="88.0" text="Author name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="84.0" layoutY="259.0" prefHeight="34.0" prefWidth="110.0" text="Year Published">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="84.0" layoutY="301.0" prefHeight="34.0" prefWidth="88.0" text="Loandate">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="84.0" layoutY="345.0" prefHeight="34.0" prefWidth="88.0" text="Book ID">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="84.0" layoutY="384.0" prefHeight="34.0" prefWidth="88.0" text="Category">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Button layoutX="564.0" layoutY="100.0" mnemonicParsing="false" onAction="#Loanlist" prefHeight="34.0" prefWidth="88.0" text="Loanlist" />
+      <DatePicker fx:id="returndate" layoutX="337.0" layoutY="384.0" prefHeight="34.0" prefWidth="127.0" />
+      <Button layoutX="564.0" layoutY="139.0" mnemonicParsing="false" onAction="#Returnlist" prefHeight="34.0" prefWidth="88.0" text="Returnlist" />
+      <Button fx:id="clearbtn" layoutX="318.0" layoutY="427.0" mnemonicParsing="false" onAction="#clear" prefHeight="34.0" prefWidth="66.0" text="Clear" />
+   </children>
+</AnchorPane>
