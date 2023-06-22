@@ -9,9 +9,17 @@
             "name": "App",
             "request": "launch",
             "mainClass": "Testing.App",
+            "projectName": "Testing_a5ebf12a",
+            "vmArgs": "--module-path D:/Sciense-Builder/Testing/lib/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml"
+      
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Testing.App",
             "projectName": "Testing_f5c782f6",
-            "vmArgs": "--module-path D:/I3-GIC-2022-2023/Login/Hello/Testing/lib/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml"
-            
+            "vmArgs": "--module-path D:/Sciense-Builder/Testing/lib/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -19,7 +27,7 @@
             "request": "launch",
             "mainClass": "Testing.ConnectDB",
             "projectName": "Signup_ec333135",
-            "vmArgs": "--module-path D:/I3-GIC-2022-2023/Login/Hello/Testing/lib/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path D:/Sciense-Builder/Testing/lib/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -33,8 +41,7 @@
             "request": "launch",
             "mainClass": "Testing.App",
             "projectName": "Signup_ec333135",
-            "vmArgs": "--module-path D:/I3-GIC-2022-2023/Login/Hello/Testing/lib/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml"
-
+            "vmArgs": "--module-path D:/Sciense-Builder/Testing/lib/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
